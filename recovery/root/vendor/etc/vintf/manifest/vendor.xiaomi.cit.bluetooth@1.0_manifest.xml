@@ -1,10 +1,10 @@
 <manifest version="1.0" type="device">
     <hal format="hidl">
-        <name>android.hardware.atrace</name>
+        <name>vendor.xiaomi.cit.bluetooth</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IAtraceDevice</name>
+            <name>IBluetoothService</name>
             <instance>default</instance>
         </interface>
     </hal>
